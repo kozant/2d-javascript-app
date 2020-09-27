@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>2d-app</title>
+		<script src="js/pixi.min.js"></script>
+	</head>
+	<body>
+		<p>Сетка 500x500, по клику на сетку можно добавить новый объект. Ниже расположены кнопки для реализации методов. </p>
+		<p><strong>Координаты курсора:</strong> <span class="coord-live"></span></p>
+		<p>
+			<button class="add-object">Добавить объекты</button>
+			<input type="text" class="add-value" placeholder="Количество" value="" />
+		</p>
+		<p><button class="change-object">Переместить объекты</button></p>
+		<p>
+			<button class="move-object-around">Начать движение объектов вокруг координат</button>
+			<input type="number" class="x" placeholder="x" value="250" />
+			<input type="number" class="y" placeholder="y" value="250" />
+		</p>
+		<p>
+			<button class="stop-object-around">Остановить движение</button>
+		</p>
+		<script src="js/pixi.min.js"></script>
+		<script src="js/square.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
